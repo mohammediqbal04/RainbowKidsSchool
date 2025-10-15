@@ -3,30 +3,21 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Curriculam from './pages/Curriculam'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import { LoaderOne } from "./components/ui/loader.jsx"
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Loader from './components/Loader'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // simulate loading for 2.5 seconds (you can adjust this)
-    const timer = setTimeout(() => {
-      setLoading(false)
-    }, 2500)
+    const timer = setTimeout(() => setLoading(false), 1200)
     return () => clearTimeout(timer)
   }, [])
 
-  if (loading) {
-    return (
-      <div className="flex justify-center items-center h-screen bg-[#fdf8ff]">
-        <LoaderOne />
-      </div>
-    )
-  }
+  if (loading) return <Loader />
 
   return (
     <Router>

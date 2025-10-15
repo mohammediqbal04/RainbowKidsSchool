@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
 
         <div>
-          <h1 className='font-semibold text-2xl mt-10'>Here to Help</h1>
+          <h1 className='font-semibold text-2xl mt-20'>Here to Help</h1>
             <div className='flex gap-5 mt-5'>
               <a href='tel:+919876543210' className='text-[#4E2976] text-m gap-3 mt-2 hover:text-gray-400'><FaMapMarkerAlt /></a>
               <div className='flex gap-2'>
@@ -50,16 +50,16 @@ const Contact = () => {
       </div>
 
       <div>
-        <iframe 
-        title='Google Map'
-        src='https://www.google.com/maps/place/Rainbow+Preschool+Choolaimedu/@13.0661391,80.2221713,17z/data=!3m1!4b1!4m6!3m5!1s0x3a526692ea31640b:0x82a6ffe919588740!8m2!3d13.0661391!4d80.2221713!16s%2Fg%2F1jkw03lkl?entry=ttu&g_ep=EgoyMDI1MTAwNi4wIKXMDSoASAFQAw%3D%3D'
-        width="100%"
-        height="400"
-        allowFullScreen=""
-        loading='lazy'
-        referrerPolicy='no-referrer-when-downgrade'
-        className='rounded-lg border'>
-        </iframe>
+        <iframe
+          title='Google Map'
+          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.142583058653!2d80.2221713!3d13.0661391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526692ea31640b%3A0x82a6ffe919588740!2sRainbow%20Preschool%20Choolaimedu!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin'
+          width="100%"
+          height="400"
+          allowFullScreen=""
+          loading='lazy'
+          referrerPolicy='no-referrer-when-downgrade'
+          className='rounded-lg border mt-20'
+        ></iframe>
       </div>  
     </div>
   )
