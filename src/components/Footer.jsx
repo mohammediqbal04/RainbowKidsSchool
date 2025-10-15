@@ -12,10 +12,10 @@ const Footer = () => {
 
           <div className='flex gap-5 mt-5'>
             <div className='bg-[#4E2976] w-9 h-9 rounded-full flex justify-center items-center font-semibold'>
-              <a href='https://www.facebook.com/rainbowpreschoolchd' target='_blank' rel='noreferrer'><FaFacebookF className='  m-2 text-2xl hover:text-blue-600'/></a>
+              <a href='https://www.instagram.com/rainbowpreschool.chennai/' target='_blank' rel='noreferrer'><FaFacebookF className='  m-2 text-2xl hover:text-blue-600'/></a>
             </div>
             <div className='bg-[#4E2976] w-9 h-9 rounded-full flex justify-center items-center font-semibold'>
-              <a href='https://www.instagram.com/rainbowpreschoolchd/' target='_blank' rel='noreferrer'><FaInstagram className=' m-2 text-2xl hover:text-pink-600'/></a>
+              <a href='https://www.instagram.com/rainbowpreschool.chennai/' target='_blank' rel='noreferrer'><FaInstagram className=' m-2 text-2xl hover:text-pink-600'/></a>
             </div>
             <div className='bg-[#4E2976] w-9 h-9 rounded-full flex justify-center items-center font-semibold'>
               <a href='https://wa.me/919876543210' target='_blank' rel='noreferrer'><FaWhatsapp className=' m-2 text-2xl hover:text-green-600'/></a>
