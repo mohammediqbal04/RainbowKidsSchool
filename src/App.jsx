@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Loader from './components/Loader'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <div className="pt-[85px]">
         <Routes>
